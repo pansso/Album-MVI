@@ -28,5 +28,6 @@ include(":core:data")
 include(":core:designsystem")
 
 include(":feature:base")
-include(":feature:main")
-include(":feature:detail")
+include(":feature:album")
+include(":feature:photo")
+include(":feature:editor")

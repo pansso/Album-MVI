@@ -3,6 +3,7 @@ package com.jungha.build_logic
 import org.gradle.api.JavaVersion
 import org.gradle.api.Project
 import org.gradle.api.artifacts.VersionCatalogsExtension
+import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.getByType
 import org.gradle.kotlin.dsl.withType
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
@@ -37,6 +38,10 @@ internal fun Project.applyKotlinAndroidLibrary() {
             kotlinOptions {
                 jvmTarget = "1.8"
             }
+        }
+
+        dependencies {
+            "implementation"(libs.findLibrary("timber").get())
         }
     }
 }

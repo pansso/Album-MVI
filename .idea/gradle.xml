@@ -27,9 +27,10 @@
             <option value="$PROJECT_DIR$/core/designsystem" />
             <option value="$PROJECT_DIR$/core/domain" />
             <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/album" />
             <option value="$PROJECT_DIR$/feature/base" />
-            <option value="$PROJECT_DIR$/feature/detail" />
-            <option value="$PROJECT_DIR$/feature/main" />
+            <option value="$PROJECT_DIR$/feature/editor" />
+            <option value="$PROJECT_DIR$/feature/photo" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

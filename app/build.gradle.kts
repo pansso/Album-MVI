@@ -13,6 +13,10 @@ android {
         versionCode = 1
         versionName = "1.0"
     }
+
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 dependencies {
@@ -24,5 +28,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(project(":core:domain"))
-    implementation(project(":feature:main"))
+    implementation(project(":feature:photo"))
+    implementation(project(":feature:album"))
+    implementation(project(":feature:editor"))
 }
